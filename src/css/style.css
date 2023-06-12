@@ -1,0 +1,64 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "public sans", sans-serif;
+    font-weight: 400;
+}
+
+/* ---------- cabeçalho ---------- */
+.cabecalho {
+    max-width: 142rem;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px;
+
+}
+
+/* ---------- logo do cabeçalho ---------- */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    font-weight: 800;
+    font-size: 2rem;
+    margin-left: 5px;
+}
+
+/* ---------- menu do cabeçalho ---------- */
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 24px;
+}
+
+.menu li a {
+    padding: 12px 6px;
+    font-size: var(--tamanho-da-fonte);
+}
+
+.menu li a:hover {
+    transition: .3s ease-in-out;
+    color: var(--cor-do-texto);
+    background-color: var(--cor-de-fundo);
+}
+
+.menu li a.btn {
+    color: var(--cor-do-texto);
+    background-color: var(--cor-de-fundo);
+    padding: 12px 22px;
+    border-radius: 10px;
+    font-weight: 300;
+}
+
+.menu li a.btn:hover {
+    transition: 0.5s ease-in-out;
+    box-shadow: 10px 10px 20px rgba(128, 128, 128, 0.8);
+}

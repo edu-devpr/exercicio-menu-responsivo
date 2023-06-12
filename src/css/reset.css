@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* O elemento (a) tem duas estilizações padrões que normalmente sempre é removido na construção de uma página. A decoração do texto e a cor do texto.
+text-decoration: none;
+color: rgba(0, 0, 0, 1);*/
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+}
+
+ul {
+    list-style: none;
+}
